@@ -1,0 +1,9 @@
+# Entorno virtual
+AMISA/
+
+# Archivos de configuración y entorno
+*.env
+.env.*
+
+# Documentación
+docs/
