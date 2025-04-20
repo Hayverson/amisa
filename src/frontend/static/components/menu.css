@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: #0d1117;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #0d1117;
+    padding: 10px 15px;
+    border-bottom: 1px solid #21262d;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu > li {
+    position: relative;
+  }
+  
+  .nav-menu li a {
+    color: #c9d1d9;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 1px 1px;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu li a i {
+    margin-right: 6px;
+  }
+  
+  .nav-menu li a:hover {
+    color: #58a6ff;
+    border-bottom: 2px solid #f78166;
+    padding-bottom: 3px;
+  }
+  
+  /* Submenu */
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #161b22;
+    top: 100%;
+    left: 0px;
+    list-style: none;
+    padding: 1px 1px;
+    margin: 0;
+    min-width: 180px;
+    border: 1px solid #30363d;
+    border-radius: 2px;
+    z-index: 1000;
+  }
+  
+  .submenu li {
+    padding: 0;
+  }
+  
+  .submenu li a {
+    padding: 10px 15px;
+    display: block;
+    color: #c9d1d9;
+    text-decoration: none;
+  }
+  
+  .submenu li a:hover {
+    background-color: #21262d;
+    color: #58a6ff;
+  }
+  
+  /* Mostrar submenu al pasar el mouse */
+  .dropdown:hover .submenu {
+    display: block;
+  }
+  
