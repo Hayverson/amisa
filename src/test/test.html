@@ -1,22 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMISA</title>
+    <link rel="stylesheet" href="../../static/components/menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
 
+  <body>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="dropdown">
+          <a
+            href="../logs/clientes-proveedores-estructura/clientes-proveedores-estructura.html"
+            ><i class="fas fa-boxes"></i> Productos</a
+          >
+        </li>
+        <li class="dropdown">
+          <a
+            href="../logs/entradas-inventarios-estructura/entradas-inventarios-estructura.html"
+            ><i class="fas fa-arrow-down"></i> Proximamente...</a
+          >
+        </li>
+        <li class="dropdown">
+          <a
+            href="../logs/entradas-inventarios-estructura/entradas-inventarios-estructura.html"
+            ><i class="fas fa-arrow-up"></i> Proximamente...</a
+          >
+        </li>
+        <li class="dropdown">
+          <a
+            href="../logs/facturacion-ventas-estructura/facturacion-ventas-estructura.html"
+            ><i class="fas fa-receipt"></i> Facturación</a
+          >
+        </li>
+        <li class="dropdown">
+          <a
+            href="../logs/clientes-proveedores-estructura/clientes-proveedores-estructura.html"
+            ><i class="fas fa-users"></i> Clientes / Proveedores</a
+          >
+        </li>
+        <li class="dropdown">
+          <a href="../logs/reportes-estructura/reportes-estructura.html"
+            ><i class="fas fa-chart-pie"></i> Reportes</a
+          >
+        </li>
+        <li class="dropdown">
+          <a
+            href="../logs/usuarios-roles-estructura/usuarios-roles-estructura.html"
+            ><i class="fas fa-users-cog"></i> Usuarios</a
+          >
+        </li>
+        <li class="dropdown">
+          <a
+            href="../logs/configuraciones-estructura/configuraciones-estructura.html"
+            ><i class="fas fa-cogs"></i> Configuración</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../static/test.css">
+    <title>Test de Prueba</title>
+    <link rel="stylesheet" href="../test/test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Agregar</a></li>
-            <li><a href="#">Historial de Compras</a></li>
-            <li><a href="#">caja</a></li>
-            <li><a href="#">Acerca de</a></li>
+    <nav class="navbar">
+        <ul class="nav-menu">
+
+            Productos
+            <li class="dropdown">
+                <a href="../logs/clientes-proveedores-estructura/clientes-proveedores-estructura.html"><i class="fas fa-boxes"></i>Productos</a>
+                <ul class="submenu">
+                    <li><a href="#">Lista de productos</a></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Marcas/Fabricantes</a></li>
+                    <li><a href="#">Unidades de medida</a></li>
+                </ul>
+            </li>
+
+            Entradas
+            <li class="dropdown">
+                <a href="../logs/entradas-inventarios-estructura/entradas-inventarios-estructura.html"><i class="fas fa-arrow-down"></i> Entradas</a>
+                <ul class="submenu">
+                    <li><a href="#">Registrar compra</a></li>
+                    <li><a href="#">Entrada por devolución</a></li>
+                    <li><a href="#">Entrada por ajuste</a></li>
+                </ul>
+            </li>
+
+            Salidas
+            <li class="dropdown">
+                <a href="../logs/entradas-inventarios-estructura/entradas-inventarios-estructura.html"><i class="fas fa-arrow-up"></i> Salidas</a>
+                <ul class="submenu">
+                    <li><a href="#">Registrar venta</a></li>
+                    <li><a href="#">Salida por devolución</a></li>
+                    <li><a href="#">Salida por ajuste/pérdida</a></li>
+                </ul>
+            </li>
+
+            
+            <li class="dropdown">
+                <a href="#"><i class="fas fa-receipt"></i> Facturación</a>
+                <ul class="submenu">
+                    <li><a href="#">Crear factura</a></li>
+                    <li><a href="#">Registrar venta</a></li>
+                    <li><a href="#">Asociar cliente</a></li>
+                </ul>
+            </li>
+
+            
+            <li class="dropdown">
+                <a href="#"><i class="fas fa-users"></i> Clientes / Proveedores</a>
+                <ul class="submenu">
+                    <li><a href="#">Gestión de clientes</a></li>
+                    <li><a href="#">Gestión de proveedores</a></li>
+                </ul>
+            </li>
+
+            
+            <li class="dropdown">
+                <a href="#"><i class="fas fa-chart-pie"></i> Reportes</a>
+                <ul class="submenu">
+                    <li><a href="#">Inventario actual</a></li>
+                    <li><a href="#">Movimientos</a></li>
+                    <li><a href="#">Productos más vendidos</a></li>
+                    <li><a href="#">Productos agotados</a></li>
+                </ul>
+            </li>
+
+            
+            <li class="dropdown">
+                <a href="#"><i class="fas fa-users-cog"></i> Usuarios</a>
+                <ul class="submenu">
+                    <li><a href="#">Crear usuarios</a></li>
+                    <li><a href="#">Asignar roles</a></li>
+                    <li><a href="#">Login / Logout</a></li>
+                </ul>
+            </li>
+
+            
+            <li class="dropdown">
+                <a href="../logs/configuraciones-estructura/configuraciones-estructura.html"><i class="fas fa-cogs"></i> Configuración</a>
+                <ul class="submenu">
+                    <li><a href="../logs/configuraciones-estructura/configuraciones-estructura.html">Ajustes generales</a></li>
+                    <li><a href="../logs/configuraciones-estructura/configuraciones-estructura.html">Configuración de impuestos</a></li>
+                    <li><a href="../logs/configuraciones-estructura/configuraciones-estructura.html">Personalización</a></li>
+                </ul>
+            </li>
+
         </ul>
     </nav>
 </body>
-
 </html>
+
+-->
